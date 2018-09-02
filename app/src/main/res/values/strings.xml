@@ -1,0 +1,542 @@
+<resources>
+    <string name="app_name">هوا + نقشه</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="direction_api">AIzaSyCBXys1aHyQGv_ganXKnJ33OHu8euQvOdM</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--
+   TODO: Before you run your application, you need a Google Maps API key.
+
+   To get one, follow this link, follow the directions and press "Create" at the end:
+
+   https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=22:F6:A0:05:F1:E1:B4:98:CB:54:DE:14:AD:93:FD:51:BD:FF:FE:57%3Bcom.example.slimshady.googlemap
+
+   You can also add your credentials to an existing key, using these values:
+
+   Package name:
+   22:F6:A0:05:F1:E1:B4:98:CB:54:DE:14:AD:93:FD:51:BD:FF:FE:57
+
+   SHA-1 certificate fingerprint:
+   22:F6:A0:05:F1:E1:B4:98:CB:54:DE:14:AD:93:FD:51:BD:FF:FE:57
+
+   Alternatively, follow the directions here:
+   https://developers.google.com/maps/documentation/android/start#get-key
+
+   Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+   string in this file.
+   -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAMtvNG60k-xKEuUNwScn4DDvJMxtr9iX4</string>
+    <string name="title_activity_place">PlaceActivity</string>
+    <string name="runtime_permissions_txt">Please enable all permissions</string>
+
+
+    <string name="condition_2xx">Storm</string>
+
+    <string name="condition_3xx">Drizzle</string>
+
+    <string name="condition_500">Light Rain</string>
+
+    <string name="condition_501">Moderate Rain</string>
+
+    <string name="condition_502">Heavy Rain</string>
+
+    <string name="condition_503">Intense Rain</string>
+
+    <string name="condition_504">Extreme Rain</string>
+
+    <string name="condition_511">Freezing Rain</string>
+
+    <string name="condition_520">Light Shower</string>
+
+    <string name="condition_521">Shower</string>
+
+    <string name="condition_522">Heavy Shower</string>
+
+    <string name="condition_531">Ragged Shower</string>
+
+    <string name="condition_600">Light Snow</string>
+
+    <string name="condition_601">Snow</string>
+
+    <string name="condition_602">Heavy Snow</string>
+
+    <string name="condition_611">Sleet</string>
+
+    <string name="condition_612">Shower Sleet</string>
+
+    <string name="condition_615">Rain and Snow</string>
+
+    <string name="condition_616">Rain and Snow</string>
+
+    <string name="condition_620">Shower Snow</string>
+
+    <string name="condition_621">Shower Snow</string>
+
+    <string name="condition_622">Shower Snow</string>
+
+    <string name="condition_701">Mist</string>
+
+    <string name="condition_711">Smoke</string>
+
+    <string name="condition_721">Haze</string>
+
+    <string name="condition_731">Sand, Dust</string>
+
+    <string name="condition_741">Fog</string>
+
+    <string name="condition_751">Sand</string>
+
+    <string name="condition_761">Dust</string>
+
+    <string name="condition_762">Volcanic Ash</string>
+
+    <string name="condition_771">Squalls</string>
+
+    <string name="condition_781">Tornado</string>
+
+    <string name="condition_800">Clear</string>
+
+    <string name="condition_801">Mostly Clear</string>
+
+    <string name="condition_802">Scattered Clouds</string>
+
+    <string name="condition_803">Broken Clouds</string>
+
+    <string name="condition_804">Overcast Clouds</string>
+
+    <string name="condition_900">Tornado</string>
+
+    <string name="condition_901">Tropical Storm</string>
+
+    <string name="condition_902">Hurricane</string>
+
+    <string name="condition_903">Cold</string>
+
+    <string name="condition_904">Hot</string>
+
+    <string name="condition_905">Windy</string>
+
+    <string name="condition_906">Hail</string>
+
+    <string name="condition_951">Calm</string>
+
+    <string name="condition_952">Light Breeze</string>
+
+    <string name="condition_953">Gentle Breeze</string>
+
+    <string name="condition_954">Breeze</string>
+
+    <string name="condition_955">Fresh Breeze</string>
+
+    <string name="condition_956">Strong Breeze</string>
+
+    <string name="condition_957">High Wind</string>
+
+    <string name="condition_958">Gale</string>
+
+    <string name="condition_959">Severe Gale</string>
+
+    <string name="condition_960">Storm</string>
+
+    <string name="condition_961">Violent Storm</string>
+
+    <string name="condition_962">Hurricane</string>
+
+
+    ====================================================================
+
+    <string name="cancel">cancelled</string>
+
+    <string name="GPSAlertDialogTitle">Gps alert</string>
+
+    <string name="GPSAlertDialogMessage">dialog message</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_splash">Splash</string>
+
+    <string name="title_activity_bearing_display">BearingDisplay</string>
+
+    <string name="wi_day_cloudy_gusts"></string>
+
+    <string name="wi_day_cloudy_windy"></string>
+
+    <string name="wi_day_cloudy"></string>
+
+    <string name="wi_day_fog"></string>
+
+    <string name="wi_day_hail"></string>
+
+    <string name="wi_day_lightning"></string>
+
+    <string name="wi_day_rain_mix"></string>
+
+    <string name="wi_day_rain_wind"></string>
+
+    <string name="wi_day_rain"></string>
+
+    <string name="wi_day_showers"></string>
+
+    <string name="wi_day_snow"></string>
+
+    <string name="wi_day_sprinkle"></string>
+
+    <string name="wi_day_sunny_overcast"></string>
+
+    <string name="wi_day_sunny"></string>
+
+    <string name="wi_day_storm_showers"></string>
+
+    <string name="wi_day_thunderstorm"></string>
+
+    <string name="wi_cloudy_gusts"></string>
+
+    <string name="wi_cloudy_windy"></string>
+
+    <string name="wi_cloudy"></string>
+
+    <string name="wi_fog"></string>
+
+    <string name="wi_hail"></string>
+
+    <string name="wi_lightning"></string>
+
+    <string name="wi_rain_mix"></string>
+
+    <string name="wi_rain_wind"></string>
+
+    <string name="wi_rain"></string>
+
+    <string name="wi_showers"></string>
+
+    <string name="wi_snow"></string>
+
+    <string name="wi_sprinkle"></string>
+
+    <string name="wi_storm_showers"></string>
+
+    <string name="wi_thunderstorm"></string>
+
+    <string name="wi_windy"></string>
+
+    <string name="wi_night_alt_cloudy_gusts"></string>
+
+    <string name="wi_night_alt_cloudy_windy"></string>
+
+    <string name="wi_night_alt_hail"></string>
+
+    <string name="wi_night_alt_lightning"></string>
+
+    <string name="wi_night_alt_rain_mix"></string>
+
+    <string name="wi_night_alt_rain_wind"></string>
+
+    <string name="wi_night_alt_rain"></string>
+
+    <string name="wi_night_alt_showers"></string>
+
+    <string name="wi_night_alt_snow"></string>
+
+    <string name="wi_night_alt_sprinkle"></string>
+
+    <string name="wi_night_alt_storm_showers"></string>
+
+    <string name="wi_night_alt_thunderstorm"></string>
+
+    <string name="wi_night_clear"></string>
+
+    <string name="wi_night_cloudy_gusts"></string>
+
+    <string name="wi_night_cloudy_windy"></string>
+
+    <string name="wi_night_cloudy"></string>
+
+    <string name="wi_night_hail"></string>
+
+    <string name="wi_night_lightning"></string>
+
+    <string name="wi_night_rain_mix"></string>
+
+    <string name="wi_night_rain_wind"></string>
+
+    <string name="wi_night_rain"></string>
+
+    <string name="wi_night_showers"></string>
+
+    <string name="wi_night_snow"></string>
+
+    <string name="wi_night_sprinkle"></string>
+
+    <string name="wi_night_storm_showers"></string>
+
+    <string name="wi_night_thunderstorm"></string>
+
+    <string name="wi_celsius"></string>
+
+    <string name="wi_cloud_down"></string>
+
+    <string name="wi_cloud_refresh"></string>
+
+    <string name="wi_cloud_up"></string>
+
+    <string name="wi_cloud"></string>
+
+    <string name="wi_degrees"></string>
+
+    <string name="wi_down_left"></string>
+
+    <string name="wi_down"></string>
+
+    <string name="wi_fahrenheit"></string>
+
+    <string name="wi_horizon_alt"></string>
+
+    <string name="wi_horizon"></string>
+
+    <string name="wi_left"></string>
+
+    <string name="wi_night_fog"></string>
+
+    <string name="wi_refresh_alt"></string>
+
+    <string name="wi_refresh"></string>
+
+    <string name="wi_right"></string>
+
+    <string name="wi_sprinkles"></string>
+
+    <string name="wi_strong_wind"></string>
+
+    <string name="wi_sunrise"></string>
+
+    <string name="wi_sunset"></string>
+
+    <string name="wi_thermometer_exterior"></string>
+
+    <string name="wi_thermometer_internal"></string>
+
+    <string name="wi_thermometer"></string>
+
+    <string name="wi_tornado"></string>
+
+    <string name="wi_up_right"></string>
+
+    <string name="wi_up"></string>
+
+    <string name="wi_wind_west"></string>
+
+    <string name="wi_wind_south_west"></string>
+
+    <string name="wi_wind_south_east"></string>
+
+    <string name="wi_wind_south"></string>
+
+    <string name="wi_wind_north_west"></string>
+
+    <string name="wi_wind_north_east"></string>
+
+    <string name="wi_wind_north"></string>
+
+    <string name="wi_wind_east"></string>
+
+    <string name="wi_smoke"></string>
+
+    <string name="wi_dust"></string>
+
+    <string name="wi_snow_wind"></string>
+
+    <string name="wi_day_snow_wind"></string>
+
+    <string name="wi_night_snow_wind"></string>
+
+    <string name="wi_night_alt_snow_wind"></string>
+
+    <string name="wi_day_sleet_storm"></string>
+
+    <string name="wi_night_sleet_storm"></string>
+
+    <string name="wi_night_alt_sleet_storm"></string>
+
+    <string name="wi_day_snow_thunderstorm"></string>
+
+    <string name="wi_night_snow_thunderstorm"></string>
+
+    <string name="wi_night_alt_snow_thunderstorm"></string>
+
+    <string name="wi_solar_eclipse"></string>
+
+    <string name="wi_lunar_eclipse"></string>
+
+    <string name="wi_meteor"></string>
+
+    <string name="wi_hot"></string>
+
+    <string name="wi_hurricane"></string>
+
+    <string name="wi_smog"></string>
+
+    <string name="wi_alien"></string>
+
+    <string name="wi_snowflake_cold"></string>
+
+    <string name="wi_stars"></string>
+
+    <string name="wi_moon_full"></string>
+
+    <string name="wi_moon_waxing_gibbous"></string>
+
+    <string name="wi_moon_waxing_quarter"></string>
+
+    <string name="wi_moon_waxing_crescent"></string>
+
+    <string name="wi_moon_young"></string>
+
+    <string name="wi_moon_new"></string>
+
+    <string name="wi_moon_old"></string>
+
+    <string name="wi_moon_waning_crescent"></string>
+
+    <string name="wi_moon_waning_quarter"></string>
+
+    <string name="wi_moon_waning_gibbous"></string>
+
+    <string name="wi_night_partly_cloudy"></string>
+
+
+    <string name="dark_sky_api">72eec72c5e8c004eff7fe7334e20d820</string>
+    <string name="s">eea4c35b18776a01ea9a2c512651e109</string>
+
+
+    ------------------------------------------------------------
+
+
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history </string>
+
+    <string name="pref_title_display_name">Display name</string>
+
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+
+    -
+    <string-array name="pref_example_list_titles">
+
+        <item>Always</item>
+
+        <item>When possible</item>
+
+        <item>Never</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="pref_example_list_values">
+
+        <item>1</item>
+
+        <item>0</item>
+
+        <item>-1</item>
+
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+
+
+    <string name="pref_header_data_sync">Data  sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+
+    -
+    <string-array name="pref_sync_frequency_titles">
+
+        <item>15 minutes</item>
+
+        <item>30 minutes</item>
+
+        <item>1 hour</item>
+
+        <item>3 hours</item>
+
+        <item>6 hours</item>
+
+        <item>Never</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="pref_sync_frequency_values">
+
+        <item>15</item>
+
+        <item>30</item>
+
+        <item>60</item>
+
+        <item>180</item>
+
+        <item>360</item>
+
+        <item>-1</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="list_preference_entries">
+
+        <item>Entry 1</item>
+
+        <item>Entry 2</item>
+
+        <item>Entry 3</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="list_preference_entry_values">
+
+        <item>1</item>
+
+        <item>2</item>
+
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+
+
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="weather_temperature">%d°</string>
+
+    <string name="weather_percent">%d%%</string>
+
+    <string name="weather_wind">%dmph</string>
+
+
+</resources>

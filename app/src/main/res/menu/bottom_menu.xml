@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+        android:title="خود پرداز"
+        android:enabled="true"
+        android:id="@+id/atm"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_atm_black_24dp"
+        />
+    <item
+
+        android:title="فروشگاه"
+        android:enabled="true"
+        android:id="@+id/market"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+
+        />
+    <item
+
+        android:title="بیمارستان"
+        android:enabled="true"
+        android:id="@+id/hospital"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+
+        />
+    <item
+
+        android:title="رستوران"
+        android:enabled="true"
+        android:id="@+id/restaurant"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        />
+    <item
+
+        android:title="پمپ بنزین"
+        android:enabled="true"
+        android:id="@+id/gas"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_gas_station_black_24dp"
+        />
+
+</menu>

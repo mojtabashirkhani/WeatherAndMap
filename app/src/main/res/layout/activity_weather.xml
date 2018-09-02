@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.slimshady.googlemap.WeatherActivity"
+
+   >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/main_background_color"
+           >
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:cardBackgroundColor="@color/transparent"
+    android:id="@+id/cardView"
+    android:fadingEdgeLength="10dp"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:scaleType="fitXY"
+        android:src="@drawable/fog_background"
+
+        />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:id="@+id/txtCity"
+        android:textColor="@android:color/white"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/txtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:layout_below="@id/txtCity"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="95dp"
+        android:paddingRight="1dp"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/mintemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/maxtemp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:id="@+id/maxtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/image_weather"
+       android:layout_below="@id/txtDesc"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_humidity"
+        android:tint="@android:color/white"
+        android:id="@+id/humidity"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWind"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentRight="true"
+        android:text="wind"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wind"
+        android:src="@drawable/ic_wind"
+        android:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/txtHumidity"
+        android:text="humidity"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sunrise_icon"
+        android:tint="@android:color/white"
+        android:id="@+id/sunrise"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="85dp"
+        />
+
+    <ImageView
+        android:id="@+id/sunset"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sunset_icon"
+        android:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSunrise"
+        android:textColor="@android:color/white"
+        android:text="sunrise"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSunset"
+        android:text="sunset"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
